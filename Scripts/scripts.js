@@ -15,7 +15,7 @@ const headerHTML = `<header>
                     <a class="navbar-item" href="../index.html">
                         Inicio
                     </a>
-                    <a class="navbar-item" href="../Html/campeones.html">
+                    <a class="navbar-item" href="Html/campeones.html">
                         Campeones
                     </a>
                     <a class="navbar-item" href="#">
@@ -31,7 +31,7 @@ const headerHTML = `<header>
                         </div>
                     </div>
                     <div class="navbar-item">
-                        <a class="button is-primary" href="../Html/login.html">
+                        <a class="button is-primary" href="Html/login.html">
                             Iniciar sesión
                         </a>
                     </div>
