@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
     background-image: url(../Imagenes/fondoLogin.webp);
     background-size: cover;
@@ -37,4 +38,45 @@ footer {
 .footer-links a {
     color: #c8aa6e;
     text-decoration: none;
+=======
+html, body {
+    background-image: url(../Imagenes/fondoLogin.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+footer {
+    background-color: #0f1923;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #c8aa6e;
+    text-decoration: none;
+>>>>>>> fd4e2eb498a2fc1ca27739e6054a1a3e428b3ede
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
     background-image: url(../Imagenes/Fondo.webp);
     background-size: cover;
@@ -162,3 +163,169 @@ font-weight: bold;
 }
 
 
+=======
+html, body {
+    background-image: url(../Imagenes/Fondo.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand img {
+    max-height: 2rem;
+    max-width: 100%;
+    height: auto;
+}
+
+
+main {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.tarjeta-campeon {
+  display: inline-block;
+  width: 200px;
+  margin: 15px;
+  vertical-align: top;
+}
+
+.campeon {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.tarjeta-campeon p {
+  color: white;
+  font-size: 13px;
+}
+
+.btn-conocer {
+  color: #c8aa6e;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+main{
+    flex: 1;
+}
+
+footer {
+    background-color: #0f1923;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #c8aa6e;
+    text-decoration: none;
+}
+.contenedor-perfil {
+display: flex;
+gap: 30px; 
+width: 90%; 
+max-width: 1400px; 
+height: 65vh; 
+margin: 40px auto;
+align-items: stretch;
+}
+
+.columna-izq {
+display: flex;
+flex-direction: column;
+gap: 20px; 
+width: 380px; 
+flex-shrink: 0;
+}
+.caja-foto-llena {
+border: 2px solid #b18f67;
+flex-grow: 1; 
+overflow: hidden;
+}
+
+.caja-foto-llena img {
+object-position: top;
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block; 
+}
+
+.caja-nombre {
+border: 2px solid #b18f67;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgba(0, 0, 0, 0.5);
+}
+.columna-der {
+text-align: center;
+border: 2px solid #b18f67;
+flex-grow: 1;
+padding: 30px;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.titulo-citas {
+color: #c8aa6e;
+margin-bottom: 25px;
+font-size: 1.4rem;
+letter-spacing: 1.5px;
+}
+
+
+.lista-fun-facts {
+list-style: none; 
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
+.lista-fun-facts li {
+font-size: 1.1rem;
+line-height: 1.5;
+padding-left: 25px;
+position: relative;
+color: #e2e2e2; 
+}
+
+.lista-fun-facts li::before {
+content: "✦";
+color: #c8aa6e;
+position: absolute;
+left: 0;
+top: 0;
+font-size: 1.2rem;
+}
+
+
+.lista-fun-facts strong {
+color: #c8aa6e;
+font-weight: bold;
+}
+
+
+>>>>>>> fd4e2eb498a2fc1ca27739e6054a1a3e428b3ede
