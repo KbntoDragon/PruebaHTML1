@@ -5,9 +5,9 @@ const headerHTML = `<header>
                     <img src="../Imagenes/Logo.webp" class="logo">
                 </a>
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarPrincipal">
-                    <span aria-hidden="true">Inicio</span>
-                    <span aria-hidden="true">Campeones</span>
-                    <span aria-hidden="true">Citas</span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
                 </a>
            </div>
            <div class="navbar-menu" id="navbarPrincipal">
