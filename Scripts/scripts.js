@@ -4,10 +4,10 @@ const headerHTML = `<header>
                 <a class="navbar-item" href="#">
                     <img src="../Imagenes/Logo.webp" class="logo">
                 </a>
-                <a class="navbar-burger">
-                    <span>Inicio</span>
-                    <span>Campeones</span>
-                    <span>Citas</span>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarPrincipal">
+                    <span aria-hidden="true">Inicio</span>
+                    <span aria-hidden="true">Campeones</span>
+                    <span aria-hidden="true">Citas</span>
                 </a>
            </div>
            <div class="navbar-menu" id="navbarPrincipal">
